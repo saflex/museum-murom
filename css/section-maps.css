@@ -1,0 +1,22 @@
+#map {
+    height: 310px;
+}
+
+
+[class*="ymaps-2"][class*="-ground-pane"] {
+
+    -webkit-filter: grayscale(0.57);
+    /* Chrome 19+ & Safari 6+ */
+}
+
+
+.bgh:after {
+    content: '';
+    position: absolute;
+    background: url(../img/rbo.png) 0 0 no-repeat;
+    width: 259px;
+    height: 137px;
+    bottom: -64px;
+    left: -1px;
+    background-size: cover;
+}

@@ -1,0 +1,121 @@
+.logo {
+    width: 220px;
+    height: 157px;
+    background: url(../img/logo.png) 0 0 no-repeat;
+    margin-top: 32px;
+    margin-bottom: -14px;
+}
+.menu-ls {
+    float: left;
+    margin-right: 44px;
+}
+
+.menu-ls:last-child{
+	margin-right: 0;
+}
+
+.menu-ls a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 18px;
+    display: block;
+}
+
+.menu-ls:first-child a{
+	font-weight: bold;
+}
+
+
+.menu-ls {
+    margin-top: 25px;
+}
+
+header input.form-control {
+    background: #f6f6f6;
+    box-shadow: none;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid #663333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+header{
+background: url(../img/bg-h.png) 0 0 no-repeat;	
+background-position: center;
+}
+
+
+header button.btn.btn-secondary:hover, header button.btn.btn-secondary:focus{
+	opacity: 0.8;
+	background: url(../img/col-btn.png) 0 0 no-repeat;
+}
+
+
+header button.btn.btn-secondary {
+    margin-left: -10px !important;
+}
+
+header input.form-control {
+    height: 40px;
+    margin-top: -3px;
+}
+
+header button.btn.btn-secondary {
+    width: 80px;
+    height: 57px;
+    background: url(../img/col-btn.png) 0 0 no-repeat;
+    font-size: 0;
+    margin-top: -10px;
+    z-index: 999 !important;
+    position: relative;
+}
+
+.lang-swipe span{
+	color: #9d8f81;
+}
+
+.lang-swipe {
+    color: #753531;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: -3px;
+}
+
+.phone-area a {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0066ff;
+    text-decoration: underline;
+    margin-left: 7px;
+}
+
+.slab-vs a {
+    margin-left: 0px;
+}
+
+.slab-vs a:before {
+    content: '';
+    background: url(../img/glz.png) 0 0 no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    margin-left: -21px;
+    margin-top: 2px;
+}
+
+.input-area {
+    margin-top: -20px;
+}
+
+
+.slab-vs a:before {
+    content: '';
+    background: url(../img/glz.png) 0 0 no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    margin-left: -21px;
+    margin-top: 3px;
+}
