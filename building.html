@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>html</title>
+    <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/Likely-master/likely.css">
+    <link href="css/bundle.css" rel="stylesheet" media="screen">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="plugins/formstyler/jquery.formstyler.css" />
+    <script src="plugins/fancybox/jquery.fancybox.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="plugins/SlickSlider/slick/slick.js"></script>
+    <script src="plugins/formstyler/jquery.formstyler.js"></script>
+    <script src="plugins/fotorama/fotorama.js"></script>
+    <script src="plugins/Likely-master/likely.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div id="CecutientWrapper" style="height: 40px;">
+                <div id="CecutientBlock">
+                    Версия для слабовидящих:
+                    <a id="CecutientOn" style="display: none;">Вкл</a>
+                    <a id="CecutientOff" style="display: inline-block;">Выкл</a>
+                    Изображения:
+                    <a id="ImageOn">Вкл</a>
+                    <a id="ImageOff">Выкл</a>
+                    Размер шрифта:
+                    <a id="SmallFonts">A</a>
+                    <a id="MediumFonts">A</a>
+                    <a id="BigFonts">A</a>
+                    Цветовая схема:
+                    <a id="WhiteStyle">A</a>
+                    <a id="BlackStyle">A</a>
+                    <a id="BlueStyle">A</a>
+                    <a id="GreenStyle">A</a>
+                </div>
+            </div>
+            <header>
+                <!-- mob menu -->
+                <div class="navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <span class="phts">+7 (49234) 3-23-59</span>
+                            <button type="button" class="navbar-toggle fll" data-toggle="collapse" data-target="#responsive-menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#" data-toggle="modal" data-target="#regModal">
+                                <div class="pluso-area"></div>
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="responsive-menu">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="">Посетителям</a>
+                                </li>
+                                <li>
+                                    <a href="">О музее</a>
+                                </li>
+                                <li>
+                                    <a href="">Научная работа</a>
+                                </li>
+                                <li>
+                                    <a href="">Посетителям</a>
+                                </li>
+                                <li>
+                                    <a href="">Коллекции</a>
+                                </li>
+                                <li>
+                                    <a href="">Контакты</a>
+                                </li>
+                                <li>
+                                    <a href="">Оценка качества услуг</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- mob menu -->
+                <div class="bottom-header shadow-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-4 col-xs-6">
+                                <a href="#">
+                                    <div class="logo"></div>
+                                </a>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-18 hidden-xs">
+                                <div class="menu-ls">
+                                    <ul>
+                                        <li>
+                                            <a href="">Посетителям</a>
+                                        </li>
+                                        <li>
+                                            <a href="">О музее</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Научная работа</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Посетителям</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="menu-ls">
+                                    <ul>
+                                        <li>
+                                            <a href="">Коллекции</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Контакты</a>
+                                        </li>
+                                        <li class="slab-vs">
+                                            <a href="">Версия для слабовидящих</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Оценка качества услуг</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-10 col-xs-18">
+                                <div class="input-area">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-secondary" type="button"></button>
+                                        </span>
+                                    </div>
+                                    <div class="phone-area">
+                                        <span>+7 (49234) 3-23-59</span>
+                                        <a href="mailto:info@murom-museam.ru">info@murom-museam.ru</a>
+                                    </div>
+                                    <div class="lang-swipe">
+                                        РУС
+                                        <span>/ ENG</span>
+                                    </div>
+                                    <div class="soc-area">
+                                        <div class="likely" data-url="http://ilyabirman.ru/">
+                                            <div class="gplus"></div>
+                                            <div class="vkontakte"></div>
+                                            <div class="odnoklassniki"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="main-block mzb second-section cblk">
+                <div class="container">
+                    <div class="news-area">
+                        <div class="row">
+                            <div class="col-md-24">
+                                <h3 class="main-h1">Здания музея</h3>
+                            </div>
+                            <div class="col-md-24">
+                                <div class="news-text-block-area nsv-bl">
+                                    <div class="img-lt">
+                                        <div class="spt-area">
+                                            <h4>Выставочный центр</h4>
+                                            <h5>Московская, 13 Администрация Музея</h5>
+                                            <p>
+                                                Бывший дом купцов Голубевых расположен на углу улицы Московской и Вознесенской площади. Это один из самых красивых домов в Муроме. Центральная часть главного южного фасада выделена шестью колонками ионического ордена и двумя высокими крыльцами, разделенными аркой, ведущей во внутренний дворик. Смотрящий на Вознесенскую церковь западный фасад необычен благодаря вставкам трехарочных венецианских окон в традиционную для Мурома сетку прямоугольных оконных проемов.
+                                            </p>
+                                            <p>
+                                                Сейчас в выставочном центре Муромского музея размещаются постоянные экспозиции «Сокровища древнего Мурома» и «Город и горожане» и 1-2 временные выставки.
+                                            </p>
+                                            <a href="#" class="vst">Проходящие выставки ></a>
+                                        </div>
+                                        <img src="img/mrm.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="img-lt">
+                                        <div class="spt-area right-st">
+                                            <h4>Художественная галерея</h4>
+                                            <h5>Первомайская, 6</h5>
+                                            <p>
+                                                Галерея, открытая в 1996 году, занимает двухэтажное здание бывшей Городской управы. Построенное в 1815 году в стиле классицизма здание довольно скромно выглядит в архитектурном отношении. После реставрации (1990-е гг.) было украшено по восточному и западному фасадам парадными крыльцами. От внутреннего убранства сохранилась сложно орнаментированная чугунная лестница.
+                                            </p>
+                                            <p>
+                                                В здании располагаются экспозиция «Русское и западноевропейское искусство XVII – начала ХХ вв.», научная библиотека, архив и читальный зал.
+                                            </p>
+                                            <a href="#" class="vst">Проходящие выставки ></a>
+                                        </div>
+                                        <img src="img/mrm2.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="img-lt">
+                                        <div class="spt-area">
+                                            <h4>Дом Зворыкиных</h4>
+                                            <h5>Первомайская, 4</h5>
+                                            <h6>закрыт на реконструкцию</h6>
+                                            <p>
+                                                Старейшее здание музея – трехэтажный каменный особняк с мезонином купцов Зворыкиных. Здесь родился и провел юность ученый с мировым именем, «отец телевидения», Владимир Козьмич Зворыкин. На доме Зворыкиных установлена мемориальная доска. 31 июля 2013 года установлен памятник знаменитому земляку у его родного дома
+                                            </p>
+                                        </div>
+                                        <img src="img/mrm3.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="img-lt">
+                                        <div class="spt-area right-st">
+                                            <h4>Фондохранилище</h4>
+                                            <h5>Советская, 16</h5>
+                                            <h6>закрыт на ремонт</h6>
+                                            <p>
+                                                Расположено в центральной части города при пересечении двух улиц Советской и Л. Толстого (площади Победы). Двухэтажный каменный дом из большемерного керамического кирпича на бутовом фундаменте с высоким кирпичным цоколем, облицованным профилированным белым камнем, предположительно, построен в 1880-1882 гг. Имя архитектора установить не удалось; судя по достаточно простому решению фасадов и традиционным планам, все решалось общением хозяев с артелью строителей. Земля и дом, вероятно, принадлежали потомственной гражданке Александре Федоровне Казанской. В 1915 году здание перешло Русскому торгово-промышленному банку. В коллекции музея хранятся две фотографии начала ХХ века с изображением здания банка. В 2014 г. – здание передано музею под фондохранилище.
+                                            </p>
+                                        </div>
+                                        <img src="img/mrm4.jpg" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="news-area cards-st">
+                            <div class="row">
+                                <h1 class="main-h1">Здания на карте</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="map" class="map-ls"></div>
+            </section>
+            <div class="n7">
+                <div class="ls1"></div>
+                <div class="cos1"></div>
+                <div class="cos2"></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="foot-menu fll">
+                    <p class="hidden-xss fll">© 1998-2016,</p>
+                    <p class="hidden-xss fll sds">
+                        «Муромский историко
+                        -художественный музей»
+                    </p>
+                </div>
+                <div class="foot-menu fll">
+                    <img src="img/plogo.png"></div>
+                <div class="foot-menu flr">
+                    <a href="http://bel-kot.com" target="_blank" class="hdlk">"Создание сайта - Белый Кот"</a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/scripts.js"></script>
+        <script>
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map", {
+                    center: [55.76, 37.64],
+                    zoom: 10,
+                    controls: ['zoomControl']
+                }),
+
+
+                // Создаем геообъект с типом геометрии "Точка".
+                myGeoObject = new ymaps.GeoObject({
+                    // Описание геометрии.
+                    geometry: {
+                        type: "Point",
+                        coordinates: [55.8, 37.8]
+                    },
+
+                }, {
+                    // Опции.
+                    // Иконка метки будет растягиваться под размер ее содержимого.
+                    preset: 'twirl#redStretchyIcon',
+
+                }),
+
+
+                myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                    balloonContent: 'Название метки'
+                }, {
+                    // Опции.
+                    // Необходимо указать данный тип проекта.
+                    iconLayout: 'default#image',
+                    // Своё изображение иконки метки.
+                    iconImageHref: 'img/maps.png',
+                    // Размеры метки.
+                    iconImageSize: [59, 74],
+                    // Смещение левого верхнего угла иконки относительно
+                    // её "ножки" (точки привязки).
+                    iconImageOffset: [-27, -2]
+                });
+
+
+            myPlacemark2 = new ymaps.Placemark([55.76, 37.78], {
+                // Свойства.
+                balloonContent: 'Название метки'
+            }, {
+                // Опции.
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: 'img/maps.png',
+                iconImageSize: [59, 74],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-37, -2]
+            });
+
+
+
+
+            myPlacemark3 = new ymaps.Placemark([55.9198471, 37.7654985], {
+                // Свойства.
+                balloonContent: 'Название метки'
+            }, {
+                // Опции.
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: 'img/maps.png',
+                iconImageSize: [59, 74],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-27, -2]
+            });
+
+
+
+            myMap.geoObjects.add(myPlacemark)
+                .add(myPlacemark2).add(myPlacemark3)
+        }
+        </script>
+    </div>
+</body>
+
+</html>

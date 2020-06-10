@@ -1,22 +1,25 @@
-
-
 /* color */
 
-header, .main-block {
+header,
+.main-block {
     background: #000 !important;
     color: #fff;
 }
 
-.menu-ls a, .lang-swipe, p.hidden-xss.fll.sds, p.hidden-xss, a.hdlk{
-	color: #fff;
+.menu-ls a,
+.lang-swipe,
+p.hidden-xss.fll.sds,
+p.hidden-xss,
+a.hdlk {
+    color: #fff;
 }
 
-.bgh:after{
-	display: none;
+.bgh:after {
+    display: none;
 }
 
-.fls-l:first-child{
-	background: #000;
+.fls-l:first-child {
+    background: #000;
 }
 
 .bgh {
@@ -33,8 +36,8 @@ header, .main-block {
     background: #2f2f2f;
 }
 
-.smlo2:before{
-	display: none;
+.smlo2:before {
+    display: none;
 }
 
 

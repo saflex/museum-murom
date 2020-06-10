@@ -1,170 +1,172 @@
-@media screen and (min-width: 1200px) { 
-	.menu-ls a {
-    font-size: 20px;
-}
+@media screen and (min-width: 1200px) {
+    .menu-ls a {
+        font-size: 20px;
+    }
 
-.phone-area {
-    font-size: 22px;
-}
-
-
-.logo {
-    width: 260px;
-    height: 160px;
-    background: url(../img/logo.png) 0 0 no-repeat;
-    margin-top: 32px;
-    margin-bottom: -14px;
-    background-size: contain;
-}
-.phone-area a {
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    color: #0066ff;
-    text-decoration: underline;
-    margin-left: 7px;
-    clear: both;
-    display: block;
-    font-size: 19px;
-}
-
-.lang-swipe {
-    color: #753531;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 10px;
-    margin-bottom: -3px;
-    font-size: 20px;
-}
+    .phone-area {
+        font-size: 22px;
+    }
 
 
-.menu-ls {
-    margin-top: 25px;
-    width: 186px;
-}
+    .logo {
+        width: 260px;
+        height: 160px;
+        background: url(../img/logo.png) 0 0 no-repeat;
+        margin-top: 32px;
+        margin-bottom: -14px;
+        background-size: contain;
+    }
+
+    .phone-area a {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #0066ff;
+        text-decoration: underline;
+        margin-left: 7px;
+        clear: both;
+        display: block;
+        font-size: 19px;
+    }
+
+    .lang-swipe {
+        color: #753531;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 10px;
+        margin-bottom: -3px;
+        font-size: 20px;
+    }
 
 
-.slide-txt h1 {
-    font-family: "GothamProBlack";
-    font-size: 68px;
-}
-
-.slide-txt h2 {
-    font-size: 36px;
-    margin-top: 12px;
-}
-
-.slide-txt p {
-    font-size: 21px;
-    margin-top: 10px;
-}
-
-.zag-area p {
-    font-size: 19px;
-    margin-bottom: 5px;
-}
-
-.zag-area h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-.zag-lk {
-    height: 215px;
-    overflow: hidden;
-    margin-bottom: 7px;
-}
-
-.b-im img {
-    width: 100%;
-    height: 420px;
-    object-fit: cover;
-}
-
-.clk-ims h2 {
-    font-size: 31px;
-    margin-bottom: 10px;
-}
-
-.clk-ims h5 {
-    font-size: 20px;
-}
-
-.smpl-cont p {
-    font-size: 20px;
-}
-
-.ztd h5 {
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 6px;
-    font-size: 23px;
-}
-
-.smpl-cont2 p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-}
-
-.bgh {
-    width: 100%;
-    height: 500px;
-    background: url(../img/bgh.png) repeat;
-    padding: 20px;
-    margin-top: -45px;
-}
-
-.fls-l h4, .dlb-news h4 {
-    font-size: 23px;
-    margin-bottom: 11px;
-}
-
-.px-d {
-    color: #b2a491;
-    font-size: 19px;
-    margin-bottom: 12px;
-}
-
-.st-p {
-    font-size: 17px;
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 14px;
-    line-height: 1.1em;
-}
-
-a.hdlk {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    margin-top: 12px;
-    display: block;
-}
-
-p.hidden-xss {
-    font-size: 19px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.sds {
-    max-width: 268px;
-}
-
-.dlb-news {
-    height: 430px;
-    border-bottom: 2px solid #663333;
-}
-
-.fls-l {
-    width: 50%;
-    float: left;
-    height: 430px;
-}
+    .menu-ls {
+        margin-top: 25px;
+        width: 186px;
+    }
 
 
-.slab-vs a {
-    margin-left: 0px;
-}
+    .slide-txt h1 {
+        font-family: "GothamProBlack";
+        font-size: 68px;
+    }
 
-.slab-vs a:before{
-	display: none;
-}
+    .slide-txt h2 {
+        font-size: 36px;
+        margin-top: 12px;
+    }
+
+    .slide-txt p {
+        font-size: 21px;
+        margin-top: 10px;
+    }
+
+    .zag-area p {
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+
+    .zag-area h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .zag-lk {
+        height: 215px;
+        overflow: hidden;
+        margin-bottom: 7px;
+    }
+
+    .b-im img {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+    }
+
+    .clk-ims h2 {
+        font-size: 31px;
+        margin-bottom: 10px;
+    }
+
+    .clk-ims h5 {
+        font-size: 20px;
+    }
+
+    .smpl-cont p {
+        font-size: 20px;
+    }
+
+    .ztd h5 {
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-top: 6px;
+        font-size: 23px;
+    }
+
+    .smpl-cont2 p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 17px;
+    }
+
+    .bgh {
+        width: 100%;
+        height: 500px;
+        background: url(../img/bgh.png) repeat;
+        padding: 20px;
+        margin-top: -45px;
+    }
+
+    .fls-l h4,
+    .dlb-news h4 {
+        font-size: 23px;
+        margin-bottom: 11px;
+    }
+
+    .px-d {
+        color: #b2a491;
+        font-size: 19px;
+        margin-bottom: 12px;
+    }
+
+    .st-p {
+        font-size: 17px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 14px;
+        line-height: 1.1em;
+    }
+
+    a.hdlk {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        margin-top: 12px;
+        display: block;
+    }
+
+    p.hidden-xss {
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .sds {
+        max-width: 268px;
+    }
+
+    .dlb-news {
+        height: 430px;
+        border-bottom: 2px solid #663333;
+    }
+
+    .fls-l {
+        width: 50%;
+        float: left;
+        height: 430px;
+    }
+
+
+    .slab-vs a {
+        margin-left: 0px;
+    }
+
+    .slab-vs a:before {
+        display: none;
+    }
 
 
 

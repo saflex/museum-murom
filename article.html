@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>html</title>
+    <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/Likely-master/likely.css">
+    <link href="css/bundle.css" rel="stylesheet" media="screen">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="plugins/formstyler/jquery.formstyler.css" />
+    <script src="plugins/fancybox/jquery.fancybox.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="plugins/SlickSlider/slick/slick.js"></script>
+    <script src="plugins/formstyler/jquery.formstyler.js"></script>
+    <script src="plugins/fotorama/fotorama.js"></script>
+    <script src="plugins/Likely-master/likely.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div id="CecutientWrapper" style="height: 40px;">
+                <div id="CecutientBlock">
+                    Версия для слабовидящих:
+                    <a id="CecutientOn" style="display: none;">Вкл</a>
+                    <a id="CecutientOff" style="display: inline-block;">Выкл</a>
+                    Изображения:
+                    <a id="ImageOn">Вкл</a>
+                    <a id="ImageOff">Выкл</a>
+                    Размер шрифта:
+                    <a id="SmallFonts">A</a>
+                    <a id="MediumFonts">A</a>
+                    <a id="BigFonts">A</a>
+                    Цветовая схема:
+                    <a id="WhiteStyle">A</a>
+                    <a id="BlackStyle">A</a>
+                    <a id="BlueStyle">A</a>
+                    <a id="GreenStyle">A</a>
+                </div>
+            </div>
+            <header>
+                <!-- mob menu -->
+                <div class="navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <span class="phts">+7 (49234) 3-23-59</span>
+                            <button type="button" class="navbar-toggle fll" data-toggle="collapse" data-target="#responsive-menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#" data-toggle="modal" data-target="#regModal">
+                                <div class="pluso-area"></div>
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="responsive-menu">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="">Посетителям</a>
+                                </li>
+                                <li>
+                                    <a href="">О музее</a>
+                                </li>
+                                <li>
+                                    <a href="">Научная работа</a>
+                                </li>
+                                <li>
+                                    <a href="">Посетителям</a>
+                                </li>
+                                <li>
+                                    <a href="">Коллекции</a>
+                                </li>
+                                <li>
+                                    <a href="">Контакты</a>
+                                </li>
+                                <li>
+                                    <a href="">Оценка качества услуг</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- mob menu -->
+                <div class="bottom-header shadow-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-4 col-xs-6">
+                                <a href="#">
+                                    <div class="logo"></div>
+                                </a>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-18 hidden-xs">
+                                <div class="menu-ls">
+                                    <ul>
+                                        <li>
+                                            <a href="">Посетителям</a>
+                                        </li>
+                                        <li>
+                                            <a href="">О музее</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Научная работа</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Посетителям</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="menu-ls">
+                                    <ul>
+                                        <li>
+                                            <a href="">Коллекции</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Контакты</a>
+                                        </li>
+                                        <li class="slab-vs">
+                                            <a href="">Версия для слабовидящих</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Оценка качества услуг</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-10 col-xs-18">
+                                <div class="input-area">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-secondary" type="button"></button>
+                                        </span>
+                                    </div>
+                                    <div class="phone-area">
+                                        <span>+7 (49234) 3-23-59</span>
+                                        <a href="mailto:info@murom-museam.ru">info@murom-museam.ru</a>
+                                    </div>
+                                    <div class="lang-swipe">
+                                        РУС
+                                        <span>/ ENG</span>
+                                    </div>
+                                    <div class="soc-area">
+                                        <div class="likely" data-url="http://ilyabirman.ru/">
+                                            <div class="gplus"></div>
+                                            <div class="vkontakte"></div>
+                                            <div class="odnoklassniki"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="main-block mzb second-section">
+                <div class="container">
+                    <div class="news-area">
+                        <div class="row">
+                            <div class="col-md-15">
+                                <a class="back" href="#">Новости</a>
+                                <h1 class="main-h1">
+                                    Фоторепортаж с открытия выставки «Путешествия ученых рисовльщиков»
+                                </h1>
+                                <p class="time">23 июля 2016</p>
+                                <div class="fotorama" data-max-width="100%" data-nav="thumbs" data-thumbwidth="90" data-maxheight="700">
+                                    <img class="img-responsive" src="img/mls.jpg">
+                                    <img class="img-responsive" src="img/mls.jpg">
+                                    <img class="img-responsive" src="img/mls.jpg">
+                                    <img class="img-responsive" src="img/mls.jpg">
+                                    <img class="img-responsive" src="img/mls.jpg">
+                                    <img class="img-responsive" src="img/mls.jpg">
+                                    <img class="img-responsive" src="img/mls.jpg">
+                                    <img class="img-responsive" src="img/mls.jpg">
+                                    <img class="img-responsive" src="img/mls.jpg"></div>
+                                <div class="news-text-block-area">
+                                    <h4>
+                                        20 декабря 2016 года в Музейно-выставочном зале состоялось торжественное открытие выставки акварельных работ учащихся Санкт-Петербургского Центрального училища технического рисования барона Штиглица на рубеже XIX и XX вв.
+                                    </h4>
+                                    <p>
+                                        После завершения осенью 1845 года плаванья с адмиралом Литке, Айвазовский обратился в Главный морской штаб и Академию художеств с просьбой продлить пребывание в Крыму для окончания начатых работ; и получил разрешение остаться до следующего мая. Но в том же году Айвазовский начинает строительство своего дома на городской набережной и обосновывается в Феодосии. Айвазовский много путешествовал, часто, иногда по нескольку раз в год, уезжал в Петербург, но домом своим считал Феодосию. «Мой адрес — всегда в Феодосии», сообщал он в письме Павлу Михайловичу Третьякову[17].
+                                    </p>
+                                    <p>
+                                        Айвазовский активно занимался делами Феодосии, её благоустройством, способствовал процветанию города. Его влияние на феодосийскую жизнь было огромно. Айвазовский открыл в Феодосии школу искусств и картинную галерею, превратив Феодосию в один из центров живописной культуры на юге действительным членом Одесского общества истории и древностей.
+                                    </p>
+                                    <h5>Предварительные успехи</h5>
+                                    <p>
+                                        Айвазовский был инициатором строительства железной дороги «Феодосия — Джанкой», построенной в 1892 году. Выступал за расширение Феодосийского порта, публиковал открытые письма, где обосновывал преимущества строительства порта в Феодосии. В итоге в 1892—1894 годах в Феодосии был построен самый большой в Крыму торговый порт.
+                                    </p>
+                                </div>
+                                <div class="youtube-frame">
+                                    <iframe id="video" width="420" height="315" src="http://www.youtube.com/embed/nSJan_Mo4p0?rel=0" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="likely" data-url="http://ilyabirman.ru/">
+                                    <div class="facebook">Facebook</div>
+                                    <div class="twitter" data-via="ilyabirman">Twitter</div>
+                                    <div class="gplus">Google Plus</div>
+                                    <div class="vkontakte">Вконтакте</div>
+                                    <div class="odnoklassniki">Одноклассники</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="n2">
+                    <div class="ls1"></div>
+                    <div class="cos1"></div>
+                    <div class="cos2"></div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="foot-menu fll">
+                    <p class="hidden-xss fll">© 1998-2016,</p>
+                    <p class="hidden-xss fll sds">
+                        «Муромский историко
+                        -художественный музей»
+                    </p>
+                </div>
+                <div class="foot-menu fll">
+                    <img src="img/plogo.png"></div>
+                <div class="foot-menu flr">
+                    <a href="http://bel-kot.com" target="_blank" class="hdlk">"Создание сайта - Белый Кот"</a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </div>
+</body>
+
+</html>

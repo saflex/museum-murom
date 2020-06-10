@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>html</title>
+    <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/Likely-master/likely.css">
+    <link href="css/bundle.css" rel="stylesheet" media="screen">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="plugins/formstyler/jquery.formstyler.css" />
+    <script src="plugins/fancybox/jquery.fancybox.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="plugins/SlickSlider/slick/slick.js"></script>
+    <script src="plugins/formstyler/jquery.formstyler.js"></script>
+    <script src="plugins/fotorama/fotorama.js"></script>
+    <script src="plugins/Likely-master/likely.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div id="CecutientWrapper" style="height: 40px;">
+                <div id="CecutientBlock">
+                    Версия для слабовидящих:
+                    <a id="CecutientOn" style="display: none;">Вкл</a>
+                    <a id="CecutientOff" style="display: inline-block;">Выкл</a>
+                    Изображения:
+                    <a id="ImageOn">Вкл</a>
+                    <a id="ImageOff">Выкл</a>
+                    Размер шрифта:
+                    <a id="SmallFonts">A</a>
+                    <a id="MediumFonts">A</a>
+                    <a id="BigFonts">A</a>
+                    Цветовая схема:
+                    <a id="WhiteStyle">A</a>
+                    <a id="BlackStyle">A</a>
+                    <a id="BlueStyle">A</a>
+                    <a id="GreenStyle">A</a>
+                </div>
+            </div>
+            <header>
+                <!-- mob menu -->
+                <div class="navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <span class="phts">+7 (49234) 3-23-59</span>
+                            <button type="button" class="navbar-toggle fll" data-toggle="collapse" data-target="#responsive-menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#" data-toggle="modal" data-target="#regModal">
+                                <div class="pluso-area"></div>
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="responsive-menu">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="">Посетителям</a>
+                                </li>
+                                <li>
+                                    <a href="">О музее</a>
+                                </li>
+                                <li>
+                                    <a href="">Научная работа</a>
+                                </li>
+                                <li>
+                                    <a href="">Посетителям</a>
+                                </li>
+                                <li>
+                                    <a href="">Коллекции</a>
+                                </li>
+                                <li>
+                                    <a href="">Контакты</a>
+                                </li>
+                                <li>
+                                    <a href="">Оценка качества услуг</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- mob menu -->
+                <div class="bottom-header shadow-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-4 col-xs-6">
+                                <a href="#">
+                                    <div class="logo"></div>
+                                </a>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-18 hidden-xs">
+                                <div class="menu-ls">
+                                    <ul>
+                                        <li>
+                                            <a href="">Посетителям</a>
+                                        </li>
+                                        <li>
+                                            <a href="">О музее</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Научная работа</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Посетителям</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="menu-ls">
+                                    <ul>
+                                        <li>
+                                            <a href="">Коллекции</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Контакты</a>
+                                        </li>
+                                        <li class="slab-vs">
+                                            <a href="">Версия для слабовидящих</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Оценка качества услуг</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-10 col-xs-18">
+                                <div class="input-area">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-secondary" type="button"></button>
+                                        </span>
+                                    </div>
+                                    <div class="phone-area">
+                                        <span>+7 (49234) 3-23-59</span>
+                                        <a href="mailto:info@murom-museam.ru">info@murom-museam.ru</a>
+                                    </div>
+                                    <div class="lang-swipe">
+                                        РУС
+                                        <span>/ ENG</span>
+                                    </div>
+                                    <div class="soc-area">
+                                        <div class="likely" data-url="http://ilyabirman.ru/">
+                                            <div class="gplus"></div>
+                                            <div class="vkontakte"></div>
+                                            <div class="odnoklassniki"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="main-block mzb second-section block-nbl">
+                <div class="container">
+                    <div class="news-area">
+                        <div class="row">
+                            <div class="col-md-24">
+                                <h1 class="main-h1">Коллекции</h1>
+                            </div>
+                            <div class="col-lg-5 col-md-7 col-sm-7 ">
+                                <div class="right-menu">
+                                    <ul>
+                                        <li class="active">
+                                            <a href="#">Археология</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Дерево, мебель</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Древнерусское искусство</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Живопись, графика</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Керамика</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Книжное собрание</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Металл</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Монеты, ордена, медали</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Оружие, снаряжение</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Стекло, хрусталь</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Ткани</a>
+                                        </li>
+                                    </ul>
+                                    <div class="spml-ar">Коллекции музея онлайн</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-19 col-md-17 col-sm-17">
+                                <div class="otz-st">
+                                    <h6>Археология</h6>
+                                    <p>
+                                        Археологические коллекции - самые обширные в музее - насчитывают около 20 тысяч единиц хранения основного фонда.
+                                    </p>
+                                    <p>
+                                        Они оказались в музее благодаря археологическим раскопкам, проводившимся различными учеными в течение всего ХХ века.
+                                    </p>
+                                    <p>
+                                        Предметов из Уваровской коллекции среди них совсем немного. Как известно, почти вся она в свое время попала в Государственный Исторический музей, а в Муроме осталась лишь небольшая коллекция античных терракот архаического периода, привезенная графом из путешествий по Европе.
+                                    </p>
+                                    <p>
+                                        Первые археологические предметы, а также гербарии и литература о местном крае, были переданы музею в 1919 году Муромским научным обществом.
+                                    </p>
+                                    <p>
+                                        На протяжении восьмидесяти пяти лет фонды музея значительно увеличились и в настоящее время пополняются из самых разнообразных источников. Уже в 1926-1927 годах экспедиция Антропологического института под руководством Г.С. Масловой обследовала Муромский и соседний Меленковский уезды. По окончании ее работы в музее осталось множество интересных предметов народного быта.
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-20">
+                                        <div class="slider slider-for">
+                                            <div>
+                                                <div class="pdv-area">
+                                                    <img src="img/pdv.jpg" class="img-responsive">
+                                                    <p>подвески 5 век до н.е.</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="pdv-area">
+                                                    <img src="img/pdv.jpg" class="img-responsive">
+                                                    <p>описание 2</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slider slider-nav">
+                                            <div>
+                                                <div class="colks">
+                                                    <img src="img/pdv.jpg" class="img-responsive"></div>
+                                            </div>
+                                            <div>
+                                                <div class="colks">
+                                                    <img src="img/pdv.jpg" class="img-responsive"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="n7">
+                <div class="ls1"></div>
+                <div class="cos1"></div>
+                <div class="cos2"></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="foot-menu fll">
+                    <p class="hidden-xss fll">© 1998-2016,</p>
+                    <p class="hidden-xss fll sds">
+                        «Муромский историко
+                        -художественный музей»
+                    </p>
+                </div>
+                <div class="foot-menu fll">
+                    <img src="img/plogo.png"></div>
+                <div class="foot-menu flr">
+                    <a href="http://bel-kot.com" target="_blank" class="hdlk">"Создание сайта - Белый Кот"</a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </div>
+</body>
+
+</html>

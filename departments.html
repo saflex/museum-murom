@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>html</title>
+    <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/Likely-master/likely.css">
+    <link href="css/bundle.css" rel="stylesheet" media="screen">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="plugins/formstyler/jquery.formstyler.css" />
+    <script src="plugins/fancybox/jquery.fancybox.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="plugins/SlickSlider/slick/slick.js"></script>
+    <script src="plugins/formstyler/jquery.formstyler.js"></script>
+    <script src="plugins/fotorama/fotorama.js"></script>
+    <script src="plugins/Likely-master/likely.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div id="CecutientWrapper" style="height: 40px;">
+                <div id="CecutientBlock">
+                    Версия для слабовидящих:
+                    <a id="CecutientOn" style="display: none;">Вкл</a>
+                    <a id="CecutientOff" style="display: inline-block;">Выкл</a>
+                    Изображения:
+                    <a id="ImageOn">Вкл</a>
+                    <a id="ImageOff">Выкл</a>
+                    Размер шрифта:
+                    <a id="SmallFonts">A</a>
+                    <a id="MediumFonts">A</a>
+                    <a id="BigFonts">A</a>
+                    Цветовая схема:
+                    <a id="WhiteStyle">A</a>
+                    <a id="BlackStyle">A</a>
+                    <a id="BlueStyle">A</a>
+                    <a id="GreenStyle">A</a>
+                </div>
+            </div>
+            <header>
+                <!-- mob menu -->
+                <div class="navbar navbar-inverse navbar-fixed-top hidden-sm hidden-md hidden-lg">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <span class="phts">+7 (49234) 3-23-59</span>
+                            <button type="button" class="navbar-toggle fll" data-toggle="collapse" data-target="#responsive-menu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#" data-toggle="modal" data-target="#regModal">
+                                <div class="pluso-area"></div>
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="responsive-menu">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="">Посетителям</a>
+                                </li>
+                                <li>
+                                    <a href="">О музее</a>
+                                </li>
+                                <li>
+                                    <a href="">Научная работа</a>
+                                </li>
+                                <li>
+                                    <a href="">Посетителям</a>
+                                </li>
+                                <li>
+                                    <a href="">Коллекции</a>
+                                </li>
+                                <li>
+                                    <a href="">Контакты</a>
+                                </li>
+                                <li>
+                                    <a href="">Оценка качества услуг</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- mob menu -->
+                <div class="bottom-header shadow-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-4 col-xs-6">
+                                <a href="#">
+                                    <div class="logo"></div>
+                                </a>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-18 hidden-xs">
+                                <div class="menu-ls">
+                                    <ul>
+                                        <li>
+                                            <a href="">Посетителям</a>
+                                        </li>
+                                        <li>
+                                            <a href="">О музее</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Научная работа</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Посетителям</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="menu-ls">
+                                    <ul>
+                                        <li>
+                                            <a href="">Коллекции</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Контакты</a>
+                                        </li>
+                                        <li class="slab-vs">
+                                            <a href="">Версия для слабовидящих</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Оценка качества услуг</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-10 col-xs-18">
+                                <div class="input-area">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-secondary" type="button"></button>
+                                        </span>
+                                    </div>
+                                    <div class="phone-area">
+                                        <span>+7 (49234) 3-23-59</span>
+                                        <a href="mailto:info@murom-museam.ru">info@murom-museam.ru</a>
+                                    </div>
+                                    <div class="lang-swipe">
+                                        РУС
+                                        <span>/ ENG</span>
+                                    </div>
+                                    <div class="soc-area">
+                                        <div class="likely" data-url="http://ilyabirman.ru/">
+                                            <div class="gplus"></div>
+                                            <div class="vkontakte"></div>
+                                            <div class="odnoklassniki"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="main-block mzb second-section otz-n-area">
+                <div class="container">
+                    <div class="news-area">
+                        <div class="row">
+                            <div class="col-md-24">
+                                <h3 class="main-h1">Отделы музея</h3>
+                            </div>
+                            <div class="col-lg-5 col-md-7 col-sm-7 col-xs-12 hidden-sm hidden-md hidden-lg">
+                                <div class="right-menu">
+                                    <ul>
+                                        <li class="active">
+                                            <a href="#">Администрация</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отдел фондов</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Научно-информационный отдел</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Выставочный отдел</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Сектор экскурсионной работы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отдел бухгалтерского учета и отчетности</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Общий отдел</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отдел безопасности</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Технический отдел</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отдел материально-технического снабжения</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-19 col-md-17 col-sm-17 col-xs-12">
+                                <div class="otz-st">
+                                    <h4>Администрация</h4>
+                                    <div class="row">
+                                        <div class="col-md-23">
+                                            <div class="row">
+                                                <div class="otz-stk">
+                                                    <div class="col-sm-7">
+                                                        <img src="img/f1.png" class="img-responsive"></div>
+                                                    <div class="col-sm-17">
+                                                        <h4>Альбина Алексеевна Анучкина</h4>
+                                                        <p class="str-ls">директор музея</p>
+                                                        <p class="spl-t">(49234) 3-23-59</p>
+                                                        <a class="ste-l" href="#">director@museum-murom.ru</a>
+                                                        <div class="gts">
+                                                            <p>
+                                                                Окончила Московский Государственный Университет культуры (1996 г.): отделение библиотечного факультета «Музейное дело и охрана памятников» по специальности «музеевед-историк».
+                                                            </p>
+                                                            <p>
+                                                                Тема дипломной работы: «История развития краеведения в Муроме. Краеведческие организации Муромской земли. Конец XVIII в. – 1920-е гг.».
+                                                            </p>
+                                                            <p>
+                                                                Работает в Муромском историко-художественном музее с 1996 года, с 2004 года – в должности директора.
+                                                            </p>
+                                                            <p>
+                                                                Председатель Ученого совета музея. Председатель Методического совета музея.
+                                                            </p>
+                                                            <p>
+                                                                Член Правления Содружества «Музеи Нижней Оки» – Владимирского регионального отделения Ассоциации музейных работников (г.Тула). Член коллегии департамента по культуре администрации Владимирской области с 2007 по 2012 гг. Член Совета по культуре при администрации округа Муром. Член Центрального Совета Ассоциации музейных работников России (г. Тула). Член Совета Представителей Союза Музеев России от Владимирской области.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-23">
+                                            <div class="row">
+                                                <div class="otz-stk">
+                                                    <div class="col-sm-7">
+                                                        <img src="img/f2.png" class="img-responsive"></div>
+                                                    <div class="col-sm-17">
+                                                        <h4>Татьяна Борисовна Сарыкалина</h4>
+                                                        <p class="str-ls">директор музея</p>
+                                                        <p class="spl-t">(49234) 3-23-59</p>
+                                                        <a class="ste-l" href="#">director@museum-murom.ru</a>
+                                                        <div class="gts">
+                                                            <p>
+                                                                Окончила музыкально-педагогический факультет Владимирского Государственного педагогического института им. Лебедева-Полянского (1990 г.).
+                                                            </p>
+                                                            <p>
+                                                                Работала учителем музыки в школе, специалистом комитета по делам молодежи администрации округа Муром, директором Дворца культуры имени 1100-летия Мурома.
+                                                            </p>
+                                                            <p>
+                                                                Награждена Почетной грамотой Министерства образования РФ, Почетной грамотой Департамента по культуре администрации Владимирской области.
+                                                            </p>
+                                                            <p>В музее работает с июля 2012 года.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="otz-st">
+                                    <h4>Отдел фондов</h4>
+                                    <div class="row">
+                                        <div class="col-md-23">
+                                            <div class="row">
+                                                <div class="otz-stk">
+                                                    <div class="col-sm-7">
+                                                        <img src="img/f1.png" class="img-responsive"></div>
+                                                    <div class="col-sm-17">
+                                                        <h4>Альбина Алексеевна Анучкина</h4>
+                                                        <p class="str-ls">директор музея</p>
+                                                        <p class="spl-t">(49234) 3-23-59</p>
+                                                        <a class="ste-l" href="#">director@museum-murom.ru</a>
+                                                        <div class="gts">
+                                                            <p>
+                                                                Окончила Московский Государственный Университет культуры (1996 г.): отделение библиотечного факультета «Музейное дело и охрана памятников» по специальности «музеевед-историк».
+                                                            </p>
+                                                            <p>
+                                                                Тема дипломной работы: «История развития краеведения в Муроме. Краеведческие организации Муромской земли. Конец XVIII в. – 1920-е гг.».
+                                                            </p>
+                                                            <p>
+                                                                Работает в Муромском историко-художественном музее с 1996 года, с 2004 года – в должности директора.
+                                                            </p>
+                                                            <p>
+                                                                Председатель Ученого совета музея. Председатель Методического совета музея.
+                                                            </p>
+                                                            <p>
+                                                                Член Правления Содружества «Музеи Нижней Оки» – Владимирского регионального отделения Ассоциации музейных работников (г.Тула). Член коллегии департамента по культуре администрации Владимирской области с 2007 по 2012 гг. Член Совета по культуре при администрации округа Муром. Член Центрального Совета Ассоциации музейных работников России (г. Тула). Член Совета Представителей Союза Музеев России от Владимирской области.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-23">
+                                            <div class="row">
+                                                <div class="otz-stk">
+                                                    <div class="col-sm-7">
+                                                        <img src="img/f2.png" class="img-responsive"></div>
+                                                    <div class="col-sm-17">
+                                                        <h4>Татьяна Борисовна Сарыкалина</h4>
+                                                        <p class="str-ls">директор музея</p>
+                                                        <p class="spl-t">(49234) 3-23-59</p>
+                                                        <a class="ste-l" href="#">director@museum-murom.ru</a>
+                                                        <div class="gts">
+                                                            <p>
+                                                                Окончила музыкально-педагогический факультет Владимирского Государственного педагогического института им. Лебедева-Полянского (1990 г.).
+                                                            </p>
+                                                            <p>
+                                                                Работала учителем музыки в школе, специалистом комитета по делам молодежи администрации округа Муром, директором Дворца культуры имени 1100-летия Мурома.
+                                                            </p>
+                                                            <p>
+                                                                Награждена Почетной грамотой Министерства образования РФ, Почетной грамотой Департамента по культуре администрации Владимирской области.
+                                                            </p>
+                                                            <p>В музее работает с июля 2012 года.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-7 col-sm-7 col-xs-12 hidden-xs">
+                                <div class="right-menu">
+                                    <ul>
+                                        <li class="active">
+                                            <a href="#">Администрация</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отдел фондов</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Научно-информационный отдел</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Выставочный отдел</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Сектор экскурсионной работы</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отдел бухгалтерского учета и отчетности</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Общий отдел</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отдел безопасности</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Технический отдел</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отдел материально-технического снабжения</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="n7">
+                <div class="ls1"></div>
+                <div class="cos1"></div>
+                <div class="cos2"></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="foot-menu fll">
+                    <p class="hidden-xss fll">© 1998-2016,</p>
+                    <p class="hidden-xss fll sds">
+                        «Муромский историко
+                        -художественный музей»
+                    </p>
+                </div>
+                <div class="foot-menu fll">
+                    <img src="img/plogo.png"></div>
+                <div class="foot-menu flr">
+                    <a href="http://bel-kot.com" target="_blank" class="hdlk">"Создание сайта - Белый Кот"</a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </div>
+</body>
+
+</html>

@@ -5,13 +5,14 @@
     margin-top: 32px;
     margin-bottom: -14px;
 }
+
 .menu-ls {
     float: left;
     margin-right: 44px;
 }
 
-.menu-ls:last-child{
-	margin-right: 0;
+.menu-ls:last-child {
+    margin-right: 0;
 }
 
 .menu-ls a {
@@ -22,8 +23,8 @@
     display: block;
 }
 
-.menu-ls:first-child a{
-	font-weight: bold;
+.menu-ls:first-child a {
+    font-weight: bold;
 }
 
 
@@ -41,15 +42,16 @@ header input.form-control {
     font-size: 14px;
 }
 
-header{
-background: url(../img/bg-h.png) 0 0 no-repeat;	
-background-position: center;
+header {
+    background: url(../img/bg-h.png) 0 0 no-repeat;
+    background-position: center;
 }
 
 
-header button.btn.btn-secondary:hover, header button.btn.btn-secondary:focus{
-	opacity: 0.8;
-	background: url(../img/col-btn.png) 0 0 no-repeat;
+header button.btn.btn-secondary:hover,
+header button.btn.btn-secondary:focus {
+    opacity: 0.8;
+    background: url(../img/col-btn.png) 0 0 no-repeat;
 }
 
 
@@ -72,8 +74,8 @@ header button.btn.btn-secondary {
     position: relative;
 }
 
-.lang-swipe span{
-	color: #9d8f81;
+.lang-swipe span {
+    color: #9d8f81;
 }
 
 .lang-swipe {
